@@ -1,0 +1,22 @@
+# Heavy Datasets & Model Checkpoints
+data/*
+!data/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+
+# Python & System
+__pycache__/
+*.pyc
+.venv/
+env/
+.DS_Store
+
+# Execution Logs & Run Artifacts
+*.log
+wandb/
+runs/
